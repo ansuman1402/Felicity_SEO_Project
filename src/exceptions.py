@@ -1,5 +1,6 @@
 import sys
-from src.logger import logging
+sys.path.insert(1,'D:\\Projects\\Felicity_SEO_Project\\src') #you can either skip or add your own path here
+from logger import logging
 
 def error_message(error, error_message: sys):
     _,_,exc_tb = error_message.exc_info()
